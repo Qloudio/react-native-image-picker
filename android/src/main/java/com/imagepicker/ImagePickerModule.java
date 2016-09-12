@@ -298,7 +298,7 @@ public class ImagePickerModule extends ReactContextBaseJavaModule implements Act
     }
   }
   @Override
-  public void onNewActivity(Intent intent) {
+  public void onNewIntent(Intent intent) {
     
   }
   
