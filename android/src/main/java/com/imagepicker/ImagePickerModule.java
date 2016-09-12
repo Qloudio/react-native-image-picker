@@ -297,7 +297,11 @@ public class ImagePickerModule extends ReactContextBaseJavaModule implements Act
       callback.invoke(response);
     }
   }
-
+  @Override
+  public void onNewActivity(Intent intent) {
+    
+  }
+  
   @Override
   public void onActivityResult(final int requestCode, final int resultCode, final Intent data) {
     //robustness code
